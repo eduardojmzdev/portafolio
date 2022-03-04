@@ -1,12 +1,16 @@
 /*==================== GOOGLE FONTS ====================*/
 /* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;500;600&display=swap'); */
 /* @import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold); */
-@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+/* @import url('http://fonts.cdnfonts.com/css/ocr-a-extended'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Recursive:wght@300;500;700&display=swap');
 /*==================== VARIABLES CSS ====================*/
+@font-face {
+    font-family: 'OCR A Extended';
+    src: url('OCRAEXT.TTF');
+}
 :root {
     --header-height: 3rem;
 
@@ -1338,7 +1342,8 @@ svg, .services__svg{
         row-gap: 5rem;
     }
     .home__content{
-        padding-top: 5.5rem;
+        padding-top: 8.5rem;
+        padding-bottom: 8.5rem;
         column-gap: 2rem;
     }
     .home__blob{
@@ -1451,6 +1456,7 @@ svg, .services__svg{
     }
     .home__social{
         transform: translateX(-6rem);
+        margin-bottom: 2rem;
     }
     
     .services__container{
