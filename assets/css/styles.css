@@ -277,7 +277,7 @@ img{
 @media screen and (max-width: 767px){
     .nav__menu{
         position: fixed;
-        top: -100%;
+        top: -110%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -1450,13 +1450,14 @@ svg, .services__svg{
     .footer__container{
         padding: 0;
     }
-
+    
     .home__blob{
         width: 320px;
     }
+    
     .home__social{
-        transform: translateX(-6rem);
-        margin-bottom: 2rem;
+        transform: translateX(-2rem);
+        margin-bottom: 1rem;
     }
     
     .services__container{
@@ -1487,7 +1488,7 @@ svg, .services__svg{
     }
 
     .contact__form{
-        /* width: 460px; */
+        width: 460px;
     }
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
